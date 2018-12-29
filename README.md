@@ -1,5 +1,5 @@
 
-# 项目打包、开发流程
+# 项目启动
 
 ## 项目技术栈
 
@@ -21,12 +21,4 @@ npm install
 npm run dev
 # 新窗口开启后端 node 服务
 npm run start
-```
-
-## 打包流程
-
-```bash
-npm install
-# 前端线上打包
-npm run build
 ```
