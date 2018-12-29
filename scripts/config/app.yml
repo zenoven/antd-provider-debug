@@ -1,0 +1,7 @@
+server:
+  devPort: 3798
+path:
+  src: /app
+  views: /app/views
+  dist: /app/pub
+  viewsDist: /app/_views

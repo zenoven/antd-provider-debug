@@ -1,0 +1,56 @@
+{
+  "extends": [
+    "airbnb",
+    "eslint:recommended"
+  ],
+  "env": {
+    "node": true,
+    "es6": true,
+    "browser": true,
+    "mocha": true
+  },
+  "plugins": [
+    "react"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "globals": {
+    "process": true
+  },
+  "rules": {
+    // enable additional rules
+    "indent": ["error", 2],
+    "linebreak-style": [0, "unix"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    // disable rules from base configurations
+    "no-console": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "react/prop-types": "off",
+    "react/sort-comp": "off",
+    "react/destructuring-assignment": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react/jsx-wrap-multilines": "off",
+    "react/no-multi-comp": [0],
+    "import/no-unresolved": "off",
+    "import/first": "off",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+  }
+}

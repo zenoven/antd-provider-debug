@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "noLib": true,
+    "paths": {
+      "common/*": ["./common/*"],
+      "components/*": ["./components/*"],
+      "com/*": ["./components/*"],
+      "c/*": ["./components/*"],
+      "containers/*": ["./containers/*"],
+      "models/*": ["./models/*"],
+      "services/*": ["./services/*"],
+      "utils/*": ["./utils/*"],
+      "views/*": ["./views/*"],
+      "share/*": ["./share/*"],
+    }
+  }
+}

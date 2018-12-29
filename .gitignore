@@ -1,0 +1,17 @@
+node_modules/
+*.swp
+npm-debug.log
+.idea
+.DS_Store
+
+!.gitignore
+
+app/pub/
+app/_views/
+src/release/*.log
+src/release/names.json
+
+package-lock.json
+version.conf
+yarn.lock
+package-lock.json
