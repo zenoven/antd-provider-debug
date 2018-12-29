@@ -8,9 +8,9 @@ import 'moment/locale/zh-cn';
 import APP from './app';
 
 const Wrapper = (
-  // <LocaleProvider locale={zh_CN}>
+  <LocaleProvider locale={zh_CN}>
     <APP />
-  // </LocaleProvider>
+  </LocaleProvider>
 );
 
 const render = () => {
