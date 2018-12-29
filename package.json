@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "dev": "babel-node scripts/dev.js",
+    "build": "NODE_ENV=production babel-node scripts/build.js",
     "start": "node app.js"
   },
   "author": "",
